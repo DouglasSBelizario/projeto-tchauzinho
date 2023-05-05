@@ -1,13 +1,10 @@
-## Running React on Repl.it
+## Projeto de integração com carteira Blockchain
+Este projeto é uma aplicação web que permite que o usuário conecte sua carteira blockchain e envie uma mensagem e um tchauzinho ou um soquinho. A aplicação armazena o endereço da carteira, bem como o número de tchauzinhos e soquinhos enviados.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+### Funcionalidades
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+ - Conexão com carteira blockchain
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+ - Envio de mensagem e tchauzinho ou soquinho
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+ - Armazenamento do endereço da carteira e do número de tchauzinhos e soquinhos enviados
