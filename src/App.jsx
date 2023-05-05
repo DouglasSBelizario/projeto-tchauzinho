@@ -7,21 +7,29 @@ export default function App() {
   const wave = () => {
     
   }
+
+  const soquinho = () => {
+    
+  }
   
   return (
     <div className="mainContainer">
 
       <div className="dataContainer">
         <div className="header">
-        👋 Olá Pessoal!
+        👋 Fala Galera!!!
         </div>
 
         <div className="bio">
-        Eu sou o danicuki e já trabalhei com música, sabia? Legal, né? Conecte sua carteira  Ethereum wallet e me manda um tchauzinho!
+        Sou o Douglas e produzo conteúdo para o canal web3dev! Conecte sua carteira  Ethereum wallet e me manda um tchauzinho ou um soquinho!
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Mandar Tchauzinho 🌟
+          Mandar Tchauzinho 👋
+        </button>
+
+        <button className="soquinhoButton" onClick={soquinho}>
+          Mandar Soquinho 👊
         </button>
       </div>
     </div>
